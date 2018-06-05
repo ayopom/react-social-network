@@ -490,6 +490,15 @@ g__input-underline::after {
   margin: auto;
   color: rgba(138, 148, 138, 0.2); }
 
+.g__app-name--green {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: auto;
+  color: #007b7d; }
+
 .g__paper-title {
   text-align: left;
   padding-top: 16px;

@@ -123,10 +123,11 @@ export class MasterComponent extends Component<IMasterComponentProps, IMasterCom
 
     return (
       <div id='master'>
+      
       <Helmet>
                 <meta charSet='utf-8' />
-                <title>React Social Network</title>
-                <link rel='canonical' href='https://github.com/Qolzam/react-social-network' />
+                <title>NBA Social Network</title>
+                <link rel='canonical' href='https://www.nbasocial.com' />
             </Helmet>
        {sendFeedbackStatus ? <SendFeedback /> : ''}
         <div className='master__progress' style={{ display: (progress.visible ? 'block' : 'none') }}>

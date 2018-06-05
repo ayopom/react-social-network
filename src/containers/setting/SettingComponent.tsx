@@ -140,7 +140,7 @@ export class SettingComponent extends Component<ISettingComponentProps,ISettingC
       <Grid container spacing={24}>
         <Grid item xs={12} className={classes.contain}>
 
-        <h1 className='g__app-name'>{config.settings.appName}</h1>
+        <h1 className='g__app-name--green'>{config.settings.appName}</h1>
 
         <div className='animate-bottom'>
           <Paper className={classes.paper} elevation={1} >
@@ -186,7 +186,7 @@ export class SettingComponent extends Component<ISettingComponentProps,ISettingC
                   <Button onClick={this.props.homePage} > {translate!('changePassword.homeButton')} </Button>
                 </div>
                 <div>
-                  <Button variant='raised' color='primary' onClick={this.handleForm}> {translate!('changePassword.changePasswordButton')} </Button>
+                  <Button className={classes.button} variant='raised' color='primary' onClick={this.handleForm}> {translate!('changePassword.changePasswordButton')} </Button>
 
                 </div>
               </div>
